@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto";
+  margin-top: 56px;
+  background-color:rgb(245, 225, 245);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+}
+
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(75%);
+}
+
+.carousel-caption h5 {
+  font-size: 2.5rem;
+  animation: fadeInDown 1.5s ease;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  animation: fadeInUp 1.5s ease;
+}
+
+@keyframes fadeInDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+  font-size: 1rem;
+}
+
+
+.navbar.scrolled {
+  background-color: #343a40 !important;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+
+@media (max-width: 992px) {
+  .carousel-caption h5 {
+      font-size: 1.8rem;
+  }
+
+  .carousel-caption p {
+      font-size: 1rem;
+  }
+
+  h1 {
+      font-size: 2.5rem;
+  }
+
+  p {
+      font-size: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+      font-size: 1rem;
+  }
+}

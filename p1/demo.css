@@ -1,0 +1,48 @@
+.section {
+  background-color:rgb(245, 225, 245);
+}
+.heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.image {
+  border-radius: 16px;
+}
+.title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.item{
+  border-radius: 16px;
+}
+.link{
+  color:indigo;
+  text-align: center;
+
+}
+h1{
+  font-size:40px;
+  font-family: "bree serif";
+  font-weight: bold;
+  color:rgb(132, 8, 221);
+  text-align :center;
+  padding:10px;
+
+}
+p{
+  font-family:" bree serif";
+  font-size:32px;
+  color:rgb(5, 31, 21);
+  font-weight: bold;
+  text-align :center;
+  padding:10px;
+}
+
+
+
